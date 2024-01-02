@@ -1,5 +1,7 @@
 layout: sidebar
-style: light
+style: dark
+
+repository: jaxmattfair/jaxmattfair.github.io
 
 plugins:
   - jekyll-octicons
