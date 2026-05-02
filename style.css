@@ -59,7 +59,7 @@ body {
 
     background-repeat: repeat-y;
     background-position: top center;
-    background-size: auto 800px;
+    background-size: auto 600px;
 
     animation: grassCycle 1s infinite;
 }
