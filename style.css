@@ -89,8 +89,8 @@ body {
 
     background-color: rgb(83, 137, 172);
     padding: 20px 10px;
-    border: 2px solid rgb(9, 9, 92);
-    border-radius: 12px;
+    border: 2px solid rgb(33, 65, 87);
+    border-radius: 5px;
 
     text-align: center;
 }
@@ -113,6 +113,7 @@ li {
 a {
     text-decoration: none;
     color: rgb(9, 9, 92);
+    color: rgb(33, 65, 87);
     font-size: x-large;
 }
 
