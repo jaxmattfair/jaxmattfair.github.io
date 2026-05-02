@@ -1,0 +1,67 @@
+html, body {
+    height: 100%;
+    margin: 0
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+}
+
+#page {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 3fr 4fr;
+    position: relative;
+}
+
+#top-background {
+    background-color: rgb(123, 198, 223);
+    grid-row: 1;
+}
+
+#bottom-background {
+    background-color: rgb(46, 149, 46);
+    grid-row: 2;
+}
+
+#main-content {
+    position:absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+    background-color: rgb(123, 198, 223);
+    padding: 20px 30px;
+    border: 2px solid navy;
+    border-radius: 12px;
+
+    text-align: center;
+}
+
+h1 {
+    color: navy;
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 8px 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: rgb(46, 149, 46);
+}
+
+p {
+    font-size: small;
+    color: white;
+}
