@@ -38,6 +38,19 @@ body {
     animation: grassCycle 1s infinite;
 }
 
+#name-art {
+    width: 100%;
+    height: 100px;
+
+    margin: 0 auto 0px auto;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    animation: nameCycle 1s infinite;
+}
+
 @keyframes cloudsCycle {
     0%    { background-image: url("assets/pageart/clouds-1.png"); }
     20%   { background-image: url("assets/pageart/clouds-2.png"); }
@@ -56,6 +69,15 @@ body {
     100%  { background-image: url("assets/pageart/grass-1.png"); }
 }
 
+@keyframes nameCycle {
+    0%   { background-image: url("assets/pageart/name-1.png"); }
+    20%  { background-image: url("assets/pageart/name-2.png"); }
+    40%  { background-image: url("assets/pageart/name-3.png"); }
+    60%  { background-image: url("assets/pageart/name-4.png"); }
+    80%  { background-image: url("assets/pageart/name-5.png"); }
+    100% { background-image: url("assets/pageart/name-1.png"); }
+}
+
 #main-content {
     position:absolute;
     top: 25%;
@@ -63,10 +85,10 @@ body {
     transform: translate(-50%, 0%);
 
     width: 280px;
-    height: 60%;
+    height: 350px;
 
     background-color: rgb(83, 137, 172);
-    padding: 20px 15px;
+    padding: 20px 10px;
     border: 2px solid rgb(9, 9, 92);
     border-radius: 12px;
 
