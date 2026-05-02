@@ -21,6 +21,14 @@ body {
     grid-row: 1;
 }
 
+#clouds {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+}
+
 #bottom-background {
     background-color: rgb(16, 128, 16);
     grid-row: 2;
