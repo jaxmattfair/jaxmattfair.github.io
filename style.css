@@ -5,6 +5,8 @@ html, body {
 
 body {
     font-family: "Rubik", sans-serif;
+    line-height: 1.0;
+    letter-spacing: 0.2px;
 }
 
 #page {
@@ -15,7 +17,7 @@ body {
 }
 
 #top-background {
-    background-color: rgb(123, 198, 223);
+    background-color: rgb(83, 137, 172);
     grid-row: 1;
 }
 
@@ -28,18 +30,21 @@ body {
     position:absolute;
     top: 25%;
     left: 50%;
-    transform: translate(-50%, 0%);
+    transform: translate(-50%, -20%);
 
-    background-color: rgb(123, 198, 223);
-    padding: 20px 30px;
-    border: 2px solid navy;
+    width: 280px;
+    height: 240px;
+
+    background-color: rgb(83, 137, 172);
+    padding: 20px 15px;
+    border: 2px solid rgb(9, 9, 92);
     border-radius: 12px;
 
     text-align: center;
 }
 
 h1 {
-    color: navy;
+    color: rgb(9, 9, 92);
     margin-top: 0;
 }
 
@@ -49,19 +54,23 @@ ul {
 }
 
 li {
-    margin: 8px 0;
+    margin: 20px 0;
+    font-weight: bold;
 }
 
 a {
     text-decoration: none;
-    color: inherit;
+    color: rgb(9, 9, 92);
+    font-size: x-large;
 }
 
 a:hover {
-    color: rgb(46, 149, 46);
+    color: rgb(208, 216, 222);
 }
 
 p {
+    font-family:"Courier Prime", monospace;
     font-size: small;
-    color: white;
+    color: rgb(208, 216, 222);
+    text-align: center;
 }
