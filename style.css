@@ -95,6 +95,29 @@ body {
     text-align: center;
 }
 
+.with-animal-left, 
+.with-animal-right {
+    position: relative;
+    text-align: center;
+}
+
+.animal {
+    position: absolute;
+    top: 50%;
+    width: 70px;
+    height: auto;
+}
+
+.with-animal-left .animal {
+    left: 50%;
+    transform: translate(-170%, -50%);
+}
+
+.with-animal-right .animal {
+    left: 50%;
+    transform: translate(70%, -50%);
+}
+
 h1 {
     color: rgb(33, 65, 87);
     margin-top: 0;
