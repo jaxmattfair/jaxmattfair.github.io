@@ -96,7 +96,7 @@ body {
 }
 
 h1 {
-    color: rgb(9, 9, 92);
+    color: rgb(33, 65, 87);
     margin-top: 0;
 }
 
@@ -112,7 +112,6 @@ li {
 
 a {
     text-decoration: none;
-    color: rgb(9, 9, 92);
     color: rgb(33, 65, 87);
     font-size: x-large;
 }
