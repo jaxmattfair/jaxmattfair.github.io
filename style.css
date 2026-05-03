@@ -82,10 +82,10 @@ body {
     position:absolute;
     top: 25%;
     left: 50%;
-    transform: translate(-50%, 0%);
+    transform: translate(-50%, -25%);
 
-    width: 280px;
-    height: 350px;
+    width: 370px;
+    height: 400px;
 
     background-color: rgb(83, 137, 172);
     padding: 20px 10px;
